@@ -1,0 +1,413 @@
+#headerTitle {
+	margin-top: 0.2cm;
+	color: #4255ff;
+	font-family: 'Space Grotesk',sans-serif;
+}
+
+h2 {
+	color: #4255ff;
+}
+
+#create {
+	text-decoration: none;
+}
+
+#headerDiv1{
+	display: flex;
+	gap: 2cm;
+}
+
+#headerDiv2{
+	display: flex;
+	gap: 1cm;
+	margin-left: 40%;
+
+}
+
+#subMenu {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#about {
+	margin-right: 20%;
+}
+
+h2 {
+	font-family: 'Space Grotesk',sans-serif;
+}
+
+a {
+	font-family: 'Space Grotesk',sans-serif;
+}
+
+#subMenu li{
+	padding: 20px;
+}
+
+body {
+	background-color: #f6f7fb;
+	margin:0px;
+}
+
+header{
+	grid-area: header;
+	border-top: 1px solid rgb(147, 147, 148);
+	border-bottom: 1px solid rgb(147, 147, 148);
+	display: flex;
+	padding-left:1cm;
+	position: sticky;
+	top:0;
+	background-color: white;
+
+} 
+#studySetMain, #playQuiz, #stopButton, .Quizcontainer, #createMain {
+	margin-left: 15%;
+}
+
+tr, td {
+	background-color: white;
+}
+
+tr{
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+}
+
+tr{
+	word-wrap: break-word;
+}
+
+
+#deleteButton {
+	margin-left: 5px;
+}
+
+#deleteColumn {
+	text-align: right;
+}
+
+#firstColumn {
+	border-right: 1px solid #cfd0d5;
+}
+
+
+td, input {
+	font-family: 'Space Grotesk',sans-serif;
+	margin-left: auto;
+	margin-right: 5px ;
+}
+
+.studySetTD, input {
+	padding: 10px;
+}
+
+.createtTD {
+	padding: 20px;
+}
+
+
+.studySetTable, .createSetTable {
+	border-collapse: separate;
+	border-spacing:0 15px;
+    margin: 25px 0;
+    min-width: 400px;
+	max-width: 500px;
+	background-color: #f6f7fb;
+}
+
+
+
+.studySetTable  tbody tr {
+    border-bottom: 1px thin #dddddd;
+}
+
+
+
+#studySetsHeading {
+	color: rgb(8, 0, 0);
+	
+}
+
+h3 {
+	margin-left: 30%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#viewStudySetButton {
+	margin-left: 30%;
+	font-family: 'Space Grotesk',sans-serif;
+	background-color: #4255ff;
+	color: white;
+	padding: 14px 20px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+
+.studySet {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 5cm;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+	max-width: 400px;
+	min-width: 300px;;
+}
+
+#studySets {
+	display: grid;
+	gap:70px;
+	grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+	
+}
+
+#viewStudySetButton:hover, #deleteRecord:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.setDivs{
+	
+	margin-top: 0.5cm;
+	display: flex;
+	gap: 2cm;
+}
+
+.addTermsForm {
+	display: flex;
+	gap: 2cm;
+}
+
+.submitTerm {
+	margin-top: 25px;
+}
+
+#deleteRecord{
+	color: white;
+	background-color: red;
+	border: solid red;
+	border-radius: 5px;
+}
+
+
+Main {
+	grid-area: content;
+	background-color:#f6f7fb;
+	
+}
+
+
+main {
+	padding: 2cm;
+}
+
+
+ul {
+	display:flex; 
+}
+
+
+p {
+	color: black;
+	font-family: 'Space Grotesk',sans-serif;
+}
+
+h1 {
+	font-family: 'Space Grotesk',sans-serif;
+}
+
+
+/******************* LOGIN ******************/
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+  }
+  
+  button, #logout, #backToHomePage{
+	background-color: #4255ff;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 5px;
+  }
+
+  #backToHomePage {
+	text-decoration: none;
+  }
+
+  #create {
+	background-color: #4255ff;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+  }
+
+  #welcome {
+	font-family: 'Space Grotesk',sans-serif;
+  }
+  
+  button:hover {
+	opacity: 0.6;
+  }
+  
+  .cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+  }
+  
+  .imgcontainer {
+	
+	position: relative;
+  }
+  
+  .container {
+	padding: 20px;
+  }
+  
+
+  .modal {
+	display: none; 
+	position: fixed; 
+	z-index: 1; 
+	right: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%; 
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 50px;
+  }
+  
+  .modal-content {
+	background-color: white;
+	margin: 7% auto 20% auto;
+	width: 40%;
+  }
+  
+  .close {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	color: #000;
+	font-size: 40px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: red;
+	cursor: pointer;
+  }
+  
+  .animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+  }
+  
+	
+  @keyframes animatezoom {
+	from {transform: scale(0)} 
+	to {transform: scale(1)}
+  }
+  
+
+  /******************* Quiz ******************/
+
+  .Quizcontainer {
+	width: 700px;
+	max-width: 70%;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.4);
+  }
+  
+  .btn-grid {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	gap: 15px;
+	margin: 25px 0;
+  }
+  
+  .btn {
+	border: 1px solid #267ae8 ;
+	background-color:#267ae8 ;
+	border-radius: 5px;
+	color: white;
+  }
+  
+  
+  .btn.correct {
+	background-color: #20f000;
+	border: 1px solid #20f000;
+	color: black; 
+  }
+  
+  .btn.wrong {
+	background-color: #fc0505;
+	border: 1px solid #fc0505;
+  }
+  
+  .StartB2, .nextQButton {
+	font-size: 1.8rem;
+	font-weight: bold;
+  }
+  
+  .controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .hide {
+	display: none;
+  }
+
+#stopButton, #QuizContain {
+	display:none;
+  }
+
+  #stopButton, #playQuiz {
+	width: 20%;
+  }
+
+ #playQuiz {
+	background-color: #04AA6D;
+  }
+
+  #stopButton {
+	background-color: #eb0808;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
